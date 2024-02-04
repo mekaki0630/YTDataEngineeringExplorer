@@ -18,8 +18,5 @@ The execution strategy encompassed several key phases:
 4) Scalability and Cloud Integration: Focused on scalability within AWS to effectively process large datasets.
 5) Reporting: Built a dynamic dashboard using QuickSight for comprehensive data analysis and reporting.
 
-Data Transformation Processes: The project involved intricate data transformation processes:
-  . Raw Data Management: Configured AWS S3 buckets for data storage, utilizing AWS Glue for effective data cataloging.
-  . Data Analysis and Transformation: Utilized AWS Athena and AWS Lambda for processing JSON formatted data, converting it into a clean, query-able format.
-  . CSV Data Handling: Implemented crawlers for CSV data ingestion, focusing on data preprocessing and transformation into a more efficient Parquet format.
-  . Business Intelligence Reporting: Employed QuickSight for advanced data visualization, providing valuable business intelligence insights.
+Data Transformation Processes: 
+The project involved intricate data transformation processes. In managing raw data, AWS S3 buckets were configured to store data effectively, while AWS Glue was used for efficient data cataloging. The process of data analysis and transformation involved the use of AWS Athena and AWS Lambda, which were instrumental in processing JSON formatted data and converting it into a format that was clean and easy to query. Additionally, a significant focus was placed on handling CSV data. This involved the implementation of crawlers specifically for CSV data ingestion, with an emphasis on data preprocessing and its transformation into a more efficient Parquet format. Lastly, for the aspect of business intelligence reporting, QuickSight was employed. This tool was pivotal in providing advanced data visualization, thereby offering valuable insights for business intelligence.
